@@ -6,6 +6,67 @@
     <title>Document</title>
 </head>
 <body>
-    
-</body>
+    <h2>Student Form</h2>
+    <form >
+        <label for="name">Name: </label>
+        <input type="text" id="name">
+        <br>
+        <br>
+        <label for="Email">Email:</label>
+        <input type="email" id="Email">
+        <br>
+        <br>
+        <label for="phone">Phone: </label>
+        <input type="tel" id="phone">
+       <br>
+       <br>
+        <label for="file">Resume:</label>
+        <input type="file" id="file">
+        <br>
+         <br>
+        <label for="exp">Experience (in years):</label>
+        <br>
+        <input type="number" id="exp" min="0" max="50">
+        <br>
+         <br>
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone">
+       <br>
+       <br>
+       <fieldset>
+        <legend>SKILLS</legend>
+
+       <input type="checkbox" id="check">
+       <label for="check">HTML</label>
+
+        <input type="checkbox" id="check1">
+       <label for="check1">CSS</label>
+
+        <input type="checkbox" id="check2">
+       <label for="check2">JAVASCRIPT</label>
+       </fieldset>
+         <br>
+         <label for="select">CITY:</label>
+        <select name="" id="select">
+            <option value="a">DELHI</option>
+            <option value="b">MUMBAI</option>
+            <option value="c">JAIPUR</option>
+        </select>
+       <br>
+       <br>
+     <fieldset>
+        <legend>AVAILABILITY</legend>
+        <label for="radio1">FULL-TIME</label>
+        <input type="radio" name="radio1" id="radio1">
+        <br>
+        <label for="radio2">PART-TIME</label>
+        <input type="radio" name="radio1" id="radio2">
+     </fieldset>
+
+     <label for="comment">FEEDBACK</label>
+     <br>
+     <textarea name="comment" id="comment" cols="50" rows="10"></textarea>
+     <br>
+     <input type="submit" value="SUBMIT">
+    </form>
 </html>
