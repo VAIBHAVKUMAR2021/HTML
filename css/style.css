@@ -33,3 +33,22 @@
     background-color: white;
     transition: 650ms;
 }
+
+.gojo{
+border: 2px solid red;
+border-style: dotted;
+margin-top: 10px;
+width: 50%;
+
+}
+.gojo:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+    transition: 1000ms;
+    
+}
+.gojo p{
+    font-size: 20px;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
